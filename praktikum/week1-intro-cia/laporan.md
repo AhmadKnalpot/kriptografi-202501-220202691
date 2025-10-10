@@ -16,14 +16,9 @@ Setelah mengikuti praktikum ini, mahasiswa diharapkan mampu:
 4. Menyiapkan repositori GitHub sebagai media kerja praktikum.
 
 ## 2. Dasar Teori
-a. Cipher klasik adalah metode penyandian pesan yang digunakan sebelum munculnya teknologi komputer modern. Prinsipnya yaitu mengubah huruf-huruf dalam teks asli (plaintext) menjadi huruf lain (ciphertext) menggunakan pola tertentu agar pesan sulit dipahami oleh pihak lain. Contoh cipher klasik yang terkenal adalah Caesar Cipher yang menggeser huruf beberapa langkah, dan Vigenère Cipher yang menggunakan kunci kata untuk menentukan pergeseran. Meskipun sederhana, metode ini menjadi dasar perkembangan kriptografi selanjutnya.
+Sejarah Kriptografi & Prinsip CIA
 
-b. Konsep modular aritmetika merupakan perhitungan dengan hasil yang dibatasi oleh suatu bilangan tertentu yang disebut modulus. Misalnya, 
-10mod3=1, karena sisa hasil bagi 10 dibagi 3 adalah 1. Dalam kriptografi, konsep ini digunakan untuk menjaga agar hasil pergeseran huruf tetap berada dalam alfabet. Modular aritmetika juga menjadi dasar bagi berbagai algoritma kriptografi modern seperti RSA dan Diffie-Hellman.
-
-c. Hubungan antara cipher klasik dan modular aritmetika dapat dilihat dari cara enkripsinya. Misalnya   pada Caesar Cipher digunakan rumus 
-                        𝐶=(𝑃+𝑘)mod26C=(P+k)mod26
- di mana P adalah huruf asli, k jumlah pergeseran, dan C huruf hasil enkripsi. Dengan sistem ini, jika pergeseran melebihi jumlah huruf alfabet, hasilnya akan kembali ke awal secara otomatis. Jadi, modular aritmetika berperan penting dalam menjaga agar proses enkripsi dan dekripsi berjalan dengan benar.
+Kriptografi berasal dari kata Yunani kryptos (rahasia) dan graphein (menulis), yang berarti seni menulis pesan rahasia. Sejak zaman kuno, seperti sandi Caesar di Romawi dan sandi substitusi pada abad pertengahan, kriptografi digunakan untuk menjaga kerahasiaan pesan militer. Perkembangannya terus berlanjut hingga era komputer modern dengan munculnya algoritma seperti DES, RSA, dan AES. Dalam keamanan informasi, kriptografi berperan penting untuk menjaga prinsip CIA, yaitu Confidentiality (kerahasiaan data), Integrity (keutuhan data), dan Availability (ketersediaan sistem). Ketiga prinsip ini menjadi dasar dalam merancang sistem keamanan digital yang andal dan terpercaya.
  
 ## 3. Alat dan Bahan
 (- Python 3.x  
