@@ -33,8 +33,7 @@ Sementara itu, GCD (Greatest Common Divisor) atau Faktor Persekutuan Terbesar (F
 ---
 
 ## 4. Langkah Percobaan
-(Tuliskan langkah yang dilakukan sesuai instruksi.  
-Contoh format:
+
 1. Fungsi untuk menghitung operasi modular dasar.
 2. Implementasikan fungsi GCD dengan algoritma Euclidean.
 3. Tambahkan fungsi untuk mencari invers modular.
@@ -42,9 +41,6 @@ Contoh format:
 ---
 
 ## 5. Source Code
-(Salin kode program utama yang dibuat atau dimodifikasi.  
-Gunakan blok kode:
-
 ```python
 
 def mod_add(a, b, n): return (a + b) % n
@@ -69,7 +65,6 @@ Hasil eksekusi program Caesar Cipher:
 
 
 ## 7. Jawaban Pertanyaan
-
 
     1. Peran Aritmetika Modular dalam Kriptografi Modern
 
@@ -107,12 +102,10 @@ Hasil eksekusi program Caesar Cipher:
 
 
 ## 10. Commit Log
-(Tuliskan bukti commit Git yang relevan.  
-Contoh:
-```
-commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
 
-    week2-cryptosystem: implementasi Caesar Cipher dan laporan )
+commit week3-modmath-gcd
+Author: Ahmad Nur KHolis <email>
+Date:   2025-10-20
+
+    week3-modmath-gcd :  Modular Math & GCD 
 ```
