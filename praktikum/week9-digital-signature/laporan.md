@@ -69,32 +69,18 @@ Fondasi keamanan digital signature bergantung pada sifat matematika yang sulit d
 ## 6. Hasil dan Pembahasan
 
 ## 7. Jawaban Pertanyaan
-(Jawab pertanyaan diskusi yang diberikan pada modul.  
-- Pertanyaan 1: …  
-- Pertanyaan 2: …  
-)
----
+1. Enkripsi RSA memakai kunci publik untuk mengenkripsi dan kunci privat untuk mendekripsi, sehingga tujuannya menjaga kerahasiaan. Tanda tangan digital RSA melakukan kebalikannya: pengirim memakai kunci privat untuk menandatangani, dan penerima memakai kunci publik untuk memverifikasi. Tujuannya bukan kerahasiaan, tetapi autentikasi, integritas, dan non-repudiation.
+2. Pesan terlebih dahulu di-hash, lalu hash tersebut ditandatangani dengan kunci privat pengirim. Penerima menghitung ulang hash pesan dan memverifikasi tanda tangan menggunakan kunci publik. Jika cocok, berarti (1) pesan tidak berubah (integritas), dan (2) hanya pemilik kunci privat yang dapat menghasilkan signature tersebut (autentikasi). Karena tidak ada orang lain yang memegang kunci privat, pengirim tidak dapat menyangkal tanda tangannya (non-repudiation).
+3. CA bertugas memverifikasi identitas pemilik kunci publik dan menerbitkan sertifikat digital yang membuktikan bahwa kunci publik tersebut benar milik suatu individu, server, atau organisasi. Dengan sertifikat ini, penerima dapat mempercayai bahwa kunci publik yang digunakan untuk memverifikasi tanda tangan digital benar-benar berasal dari entitas yang sah, bukan hasil manipulasi atau MITM.
 
 ## 8. Kesimpulan
-(Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
-
----
+digital signature adalah mekanisme berbasis kunci asimetris yang memastikan keaslian pengirim, integritas pesan, dan non-repudiation. Dengan menggabungkan fungsi hash dan operasi kunci privat–publik, digital signature memberikan bukti matematis bahwa pesan benar-benar dibuat oleh pemilik kunci privat dan tidak diubah selama transmisi. Karena sifat verifikasinya yang kuat, teknik ini menjadi fondasi kepercayaan pada transaksi digital, dokumen elektronik, dan protokol keamanan modern.
 
 ## 9. Daftar Pustaka
-(Cantumkan referensi yang digunakan.  
-Contoh:  
-- Katz, J., & Lindell, Y. *Introduction to Modern Cryptography*.  
-- Stallings, W. *Cryptography and Network Security*.  )
+ 
+- Stallings, W. *Cryptography and Network Security*.  
 
 ---
 
 ## 10. Commit Log
-(Tuliskan bukti commit Git yang relevan.  
-Contoh:
-```
-commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
-
-    week2-cryptosystem: implementasi Caesar Cipher dan laporan )
-```
+week9-digital-signature
