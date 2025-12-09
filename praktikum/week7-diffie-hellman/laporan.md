@@ -1,9 +1,9 @@
 # Laporan Praktikum Kriptografi
 Minggu ke-: 7
 Topik: [Diffie Hellman]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Nama: Ahmad Nur Kholis
+NIM: 220202691
+Kelas: 5 IKKA    
 
 ---
 
