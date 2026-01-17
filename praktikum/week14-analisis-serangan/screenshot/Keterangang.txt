@@ -1,0 +1,7 @@
+
+Motode  : Brute Force
+Web     : E-learning UPB
+Detail  :
+    - Saya melakukan Brute Force pada login user dari beberapa informasi minim yaitu berdasarkan : tahun mendaftar dan angkatan mahasiswa
+    - Alasan saya mencoba hal ini karena :
+        - Banyak mahasiswa yang menyepelekan akun user mereka, sehingga tidak mengubah password mereka, padahal ini dapat menjadi hal yang dapat merugikan mereka. Berdampak fatal jika dijebol oleh orang yang tidak bertanggung jawab, seperti menghapus riwayat tugas, dan hal krusial yang lain.

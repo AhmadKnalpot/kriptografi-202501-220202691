@@ -92,6 +92,6 @@ Implementasi dasar blockchain dengan Proof of Work, di mana setiap blok ditamban
 
 ## 10. Commit Log
 
-commit : week13-tintchain
+commit : week13-tinytchain
 Author: Ahmad Nur Kholis <nurkholis.official05@gmail.com>
 Date:   2026-01-17
